@@ -1,0 +1,64 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Debug builds
+/target/debug/
+/target/release/
+
+# Generated documentation
+/target/doc/
+
+# Rust analyzer files
+rust-project.json
+
+# Rust build artifacts
+/target/
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js (per il frontend React)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs frontend
+dist/
+build/
+
+# React build
+/client-react/client/dist/
+/client-react/client/build/
+
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+# graphify-axet
+.graphify/
